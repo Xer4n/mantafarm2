@@ -141,5 +141,8 @@ body{
         margin-left: 15px;
         margin-right: 15px;
     }
+    .introduction .text-intro h1{
+        margin-left: 5%;
+    }
 
 }
