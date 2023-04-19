@@ -1,5 +1,8 @@
 :root{
-    --main-bgcolor: #1B262C;
+    --main-bgcolor: #333333;
+    --main-greyaccent: #666666;
+    --greyaccent: #CCCCCC;
+    --white-grey: #EEEEEE;
 }
 
 body{
@@ -58,6 +61,10 @@ body{
     margin: 0 25px;
     list-style-type: none;
 
+}
+
+.navbar a .current{
+    color: var(--main-greyaccent);
 }
 
 
