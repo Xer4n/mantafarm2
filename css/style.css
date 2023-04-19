@@ -1,0 +1,78 @@
+:root{
+    --main-bgcolor: #1B262C;
+}
+
+body{
+    background-color: var(
+        --main-bgcolor
+    );
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.landing{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Orbitron', sans-serif;
+
+
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/manta-6edit.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opel-logo{
+    width: 15%;
+    margin: 0;
+
+    filter: invert(1);
+}
+
+.navbar{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .opel-logo{
+    transform: translateY(-100px);
+}
+.navbar .nav-links ul{
+    display: flex;
+
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+    list-style-type: none;
+
+}
+
+
+@media only screen and (max-width:750px){
+    .navbar .opel-logo{
+        transform: translateY(-40px);
+        width: 45%;
+    }
+    .navbar{
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .navbar .nav-links ul li{
+        margin: 0 3px;
+    }
+}
