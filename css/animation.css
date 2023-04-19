@@ -1,0 +1,24 @@
+@keyframes fade {
+    0%{
+        filter: opacity(0%);
+        filter: blur(100%);
+    }
+    30%{
+        filter: opacity(30%);
+        filter: blur(70%);
+    }
+    50%{
+        filter: opacity(50%);
+        filter: blur(50%);
+    }
+    80%{
+        filter: opacity(80%);
+        filter: blur(20%);
+    }
+
+    100%{
+        filter: opacity(100%);
+        filter: blur(0%);
+    }
+    
+}
