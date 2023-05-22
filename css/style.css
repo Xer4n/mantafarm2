@@ -149,7 +149,7 @@ body{
 }
 .sm-logo{
     width: 7%;
-    margin-left: 48%;
+    margin-left: 41%;
     margin-top: 2%;
 }
 
@@ -170,7 +170,12 @@ body{
 .scrolled{
     animation: fade 1.3s none;
 }
+.calendar{
+    display: flex;
+    justify-content: center;
 
+    transform: translateY(-100px);
+}
 
 @media only screen and (max-width:750px){
     .navbar .opel-logo{
@@ -232,6 +237,9 @@ body{
     .sm-logo{
         width: 10%;
         margin-left: 45%;
+    }
+    .calendar{
+        transform: translateY(0);
     }
 
 }
