@@ -216,7 +216,7 @@ body{
     }
     .main-info{
         grid-template-columns: 100%;
-        height: 170vh;
+        height: 178vh;
     }
     .text-container{
         margin-left: 15px;
@@ -231,7 +231,7 @@ body{
     }
     .sm-logo{
         width: 10%;
-        margin-left: 48%;
+        margin-left: 45%;
     }
 
 }
